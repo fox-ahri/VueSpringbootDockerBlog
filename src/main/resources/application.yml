@@ -1,0 +1,16 @@
+server:
+  port: 9000
+
+spring:
+  jpa:
+    database-platform: com.enigmabridge.hibernate.dialect.SQLiteDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  resources:
+    static-locations: classpath:/static/,classpath:/templates/
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:/db.sqlite3
+    username:
+    password:
