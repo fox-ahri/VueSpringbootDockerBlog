@@ -15,12 +15,6 @@
               </router-link>
             </li>
             <li>
-              <router-link to="/index/art">
-                <i class="el-icon-s-management">文章列表</i>
-                <el-tag size="mini" type="info">{{ article_count }}</el-tag>
-              </router-link>
-            </li>
-            <li>
               <router-link to="/index/cate">
                 <i class="el-icon-s-grid">所有分类</i>
                 <el-tag size="mini" type="info">{{ category_count }}</el-tag>
@@ -32,12 +26,12 @@
                 <el-tag size="mini" type="info">{{ tag_count }}</el-tag>
               </router-link>
             </li>
-            <li>
-              <router-link to="/index/file">
-                <i class="el-icon-s-finance">文章归档</i>
-                <span></span>
-              </router-link>
-            </li>
+              <li>
+                <router-link to="/index/file">
+                  <i class="el-icon-s-finance">文章归档</i>
+                  <el-tag size="mini" type="info">{{ article_count }}</el-tag>
+                </router-link>
+              </li>
             <li>
               <router-link to="/index/search">
                 <i class="el-icon-search">搜索</i>
@@ -78,12 +72,6 @@
                 </router-link>
               </li>
               <li>
-                <router-link to="/index/art">
-                  <i class="el-icon-s-management">文章列表</i>
-                  <el-tag size="mini" type="info">{{ article_count }}</el-tag>
-                </router-link>
-              </li>
-              <li>
                 <router-link to="/index/cate">
                   <i class="el-icon-s-grid">所有分类</i>
                   <el-tag size="mini" type="info">{{ category_count }}</el-tag>
@@ -98,7 +86,7 @@
               <li>
                 <router-link to="/index/file">
                   <i class="el-icon-s-finance">文章归档</i>
-                  <span></span>
+                  <el-tag size="mini" type="info">{{ article_count }}</el-tag>
                 </router-link>
               </li>
               <li>

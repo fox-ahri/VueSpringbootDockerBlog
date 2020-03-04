@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.ahriknow</groupId>
     <artifactId>blog</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>20200304</version>
     <name>blog</name>
     <description>VueSpringBootDockerBlog</description>
 
